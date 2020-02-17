@@ -1,5 +1,3 @@
-# PLEASE NOTE THIS POSITION IS NO LONGER OPEN. WE WILL NO LONGER BE ACCEPTING SUBMISSIONS.
-
 # Take home exercise
 
 For our tech test, we'd like you to take a stripped-down version of our quoting engine, and then add some features. This is a RESTful service endpoint that takes a few details and works out the price for a delivery.
