@@ -9,4 +9,6 @@ build
 *.jar
 *.war
 *.ear
+.DS_Store
 hs_err_pid*
+**/node_modules/
