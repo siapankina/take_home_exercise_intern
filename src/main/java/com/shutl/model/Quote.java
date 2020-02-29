@@ -4,19 +4,24 @@ public class Quote {
     String pickupPostcode;
     String deliveryPostcode;
     Long price;
+    String vehicle;
 
     public Quote() {}
 
-    public Quote(String pickupPostcode, String deliveryPostcode) {
+
+    public Quote(String pickupPostcode, String deliveryPostcode, String vehicle) {
         this.pickupPostcode = pickupPostcode;
         this.deliveryPostcode = deliveryPostcode;
+        this.vehicle = vehicle;
     }
 
-    public Quote(String pickupPostcode, String deliveryPostcode, Long price) {
+    public Quote(String pickupPostcode, String deliveryPostcode, String vehicle, Long price) {
         this.pickupPostcode = pickupPostcode;
         this.deliveryPostcode = deliveryPostcode;
+        this.vehicle = vehicle;
         this.price = price;
     }
+
 
     public String getPickupPostcode() {
         return pickupPostcode;
@@ -28,6 +33,10 @@ public class Quote {
 
     public String getDeliveryPostcode() {
         return deliveryPostcode;
+    }
+
+    public String getVehicle(){
+        return vehicle;
     }
 
     public void setDeliveryPostcode(String deliveryPostcode) {
